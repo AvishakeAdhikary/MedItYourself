@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Med-It-Yourself</string>
+    <string name="login_main">Login</string>
+    <string name="username_email">Username/Email</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="country">Country</string>
+    <string name="password">Password</string>
+    <string name="register_main">Register</string>
+    <string name="get_started">Get Started</string>
+    <string name="create_new">Create New</string>
+    <string name="old_login">Have An Account</string>
+
+</resources>
