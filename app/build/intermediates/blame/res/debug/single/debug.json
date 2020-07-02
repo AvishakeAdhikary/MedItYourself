@@ -4,6 +4,10 @@
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ambulance.xml.flat",
+        "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_ambulance.xml"
+    },
+    {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
@@ -20,6 +24,10 @@
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
+        "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_doctor.xml.flat",
+        "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_doctor.xml"
+    },
+    {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
@@ -30,6 +38,10 @@
     {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_medicene_shop.xml.flat",
+        "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_medicene_shop.xml"
     },
     {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -46,6 +58,14 @@
     {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\font_pacifico.ttf.flat",
+        "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\font\\pacifico.ttf"
+    },
+    {
+        "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_action_picker.xml.flat",
+        "source": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_action_picker.xml"
     },
     {
         "merged": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",

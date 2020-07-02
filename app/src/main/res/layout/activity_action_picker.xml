@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/darkMain"
+    android:padding="20dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentEnd="true"
+    tools:context=".ActionPicker">
+
+    <Button
+        android:text="@string/i_ambulance"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        style="@style/Button"
+        android:id="@+id/i_ambulance"
+        android:textColor="@android:color/white"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/i_doctor"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:text="@string/i_doctor"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        style="@style/Button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerInParent="true"
+        android:id="@+id/i_doctor"
+        />
+
+    <Button
+        android:text="@string/i_shop"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="20dp"
+        style="@style/Button"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/i_doctor"
+        android:id="@+id/i_shop"
+        />
+
+</RelativeLayout>

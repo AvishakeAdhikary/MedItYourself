@@ -12,8 +12,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".MediceneShopActivity" android:label="@string/i_shop"></activity>
+        <activity android:name=".DoctorActivity" android:label="@string/i_doctor"/>
+        <activity android:name=".AmbulanceActivity" android:label="@string/i_ambulance"/>
+        <activity android:name=".ActionPicker" android:label="@string/choose1"/>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="@string/register_main" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/login_main" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -23,8 +23,24 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.med_it_yourself.RegisterActivity" />
-        <activity android:name="com.example.med_it_yourself.LoginActivity" />
+        <activity
+            android:name="com.example.med_it_yourself.MediceneShopActivity"
+            android:label="@string/i_shop" />
+        <activity
+            android:name="com.example.med_it_yourself.DoctorActivity"
+            android:label="@string/i_doctor" />
+        <activity
+            android:name="com.example.med_it_yourself.AmbulanceActivity"
+            android:label="@string/i_ambulance" />
+        <activity
+            android:name="com.example.med_it_yourself.ActionPicker"
+            android:label="@string/choose1" />
+        <activity
+            android:name="com.example.med_it_yourself.RegisterActivity"
+            android:label="@string/register_main" />
+        <activity
+            android:name="com.example.med_it_yourself.LoginActivity"
+            android:label="@string/login_main" />
         <activity android:name="com.example.med_it_yourself.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
