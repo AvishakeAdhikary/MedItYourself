@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
 public class ActionPicker extends AppCompatActivity {
 
     private Button mIAmbulance,mIDoctor,mIShop;
@@ -35,7 +36,7 @@ public class ActionPicker extends AppCompatActivity {
         mIShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(ActionPicker.this, DoctorActivity.class);
+                Intent i = new Intent(ActionPicker.this, MediceneShopActivity.class);
                 startActivity(i);
             }
         });

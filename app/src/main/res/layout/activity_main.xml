@@ -7,8 +7,6 @@
     android:layout_height="match_parent"
     android:layout_alignParentTop="true"
     android:layout_alignParentBottom="true"
-    android:layout_alignParentStart="true"
-    android:layout_alignParentEnd="true"
     android:background="@color/colorPrimary"
     tools:context=".MainActivity">
 
@@ -28,12 +26,10 @@
         android:id="@+id/get_started_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:padding="10dp"
-        android:textColor="@android:color/white"
-        android:background="@color/colorPrimaryDark"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         android:layout_margin="20dp"
         android:layout_alignParentTop="false"
+        android:backgroundTint="@color/darkLight"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"

@@ -6,86 +6,108 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml
+8-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml
+9-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.INTERNET" />
-11-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:5:5-67
-11-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:5:22-64
+11-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:5:22-64
 12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-12-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:6:5-79
-12-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:6:22-76
-13
-14    <application
-14-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:8:5-32:19
-15        android:allowBackup="true"
-15-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:9:9-35
-16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-16-->[androidx.core:core:1.1.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
-17        android:debuggable="true"
-18        android:extractNativeLibs="false"
-19        android:icon="@mipmap/ic_launcher"
-19-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:10:9-43
-20        android:label="@string/app_name"
-20-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:11:9-41
-21        android:roundIcon="@mipmap/ic_launcher_round"
-21-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:12:9-54
-22        android:supportsRtl="true"
-22-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:13:9-35
-23        android:testOnly="true"
-24        android:theme="@style/AppTheme" >
-24-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:14:9-40
-25        <activity
-25-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:15:9-98
-26            android:name="com.example.med_it_yourself.MediceneShopActivity"
-26-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:15:19-55
-27            android:label="@string/i_shop" />
-27-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:15:56-86
-28        <activity
-28-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:16:9-84
-29            android:name="com.example.med_it_yourself.DoctorActivity"
-29-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:16:19-49
-30            android:label="@string/i_doctor" />
-30-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:16:50-82
+12-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:7:5-65
+13-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:7:22-62
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:9:22-78
+16
+17    <uses-feature android:name="android.hardware.camera" />
+17-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:11:5-60
+17-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:11:19-57
+18    <uses-feature android:name="android.hardware.camera2.full" />
+18-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:12:5-66
+18-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:12:19-63
+19
+20    <application
+20-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:14:5-48:19
+21        android:allowBackup="true"
+21-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:15:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.2.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\ccb20ed30836142a5a66c164bb92a0ce\core-1.2.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:16:9-43
+26        android:label="@string/app_name"
+26-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:17:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:18:9-54
+28        android:supportsRtl="true"
+28-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/AppTheme" >
+30-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:20:9-40
 31        <activity
-31-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:17:9-90
-32            android:name="com.example.med_it_yourself.AmbulanceActivity"
-32-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:17:19-52
-33            android:label="@string/i_ambulance" />
-33-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:17:53-88
+31-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:9-22:55
+32            android:name="com.example.med_it_yourself.ConfirmPicture"
+32-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:19-49
+33            android:label="@string/confirm_picture" />
+33-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:22:13-52
 34        <activity
-34-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:18:9-81
-35            android:name="com.example.med_it_yourself.ActionPicker"
-35-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:18:19-47
-36            android:label="@string/choose1" />
-36-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:18:48-79
+34-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:23:9-25:46
+35            android:name="com.example.med_it_yourself.MediceneShopActivity"
+35-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:24:13-49
+36            android:label="@string/i_shop" />
+36-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:25:13-43
 37        <activity
-37-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:19:9-21:53
-38            android:name="com.example.med_it_yourself.RegisterActivity"
-38-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:20:13-45
-39            android:label="@string/register_main" />
-39-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:21:13-50
+37-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:26:9-28:48
+38            android:name="com.example.med_it_yourself.DoctorActivity"
+38-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:13-43
+39            android:label="@string/i_doctor" />
+39-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:13-45
 40        <activity
-40-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:22:9-24:50
-41            android:name="com.example.med_it_yourself.LoginActivity"
-41-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:23:13-42
-42            android:label="@string/login_main" />
-42-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:24:13-47
-43        <activity android:name="com.example.med_it_yourself.MainActivity" >
-43-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:25:9-31:20
-43-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:25:19-47
-44            <intent-filter>
-44-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:26:13-30:29
-45                <action android:name="android.intent.action.MAIN" />
-45-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:27:17-69
-45-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:27:25-66
-46
-47                <category android:name="android.intent.category.LAUNCHER" />
-47-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:29:17-77
-47-->G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\AndroidManifest.xml:29:27-74
-48            </intent-filter>
-49        </activity>
-50    </application>
-51
-52</manifest>
+40-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:9-31:51
+41            android:name="com.example.med_it_yourself.AmbulanceActivity"
+41-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:13-46
+42            android:label="@string/i_ambulance" />
+42-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:13-48
+43        <activity
+43-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:9-34:47
+44            android:name="com.example.med_it_yourself.ActionPicker"
+44-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:13-41
+45            android:label="@string/choose1" />
+45-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-44
+46        <activity
+46-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:9-37:53
+47            android:name="com.example.med_it_yourself.RegisterActivity"
+47-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:13-45
+48            android:label="@string/register_main" />
+48-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-50
+49        <activity
+49-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:38:9-40:50
+50            android:name="com.example.med_it_yourself.LoginActivity"
+50-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:39:13-42
+51            android:label="@string/login_main" />
+51-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:40:13-47
+52        <activity android:name="com.example.med_it_yourself.MainActivity" >
+52-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:9-47:20
+52-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:19-47
+53            <intent-filter>
+53-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:42:13-46:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:17-69
+54-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:17-77
+56-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:27-74
+57            </intent-filter>
+58        </activity>
+59    </application>
+60
+61</manifest>

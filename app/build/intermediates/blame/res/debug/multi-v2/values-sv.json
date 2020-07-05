@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "outputFile": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Avhishek\\.gradle\\caches\\transforms-2\\files-2.1\\c2c5fa787d66aaf40578b3071f4d283f\\appcompat-1.1.0\\res\\values-sv\\values-sv.xml",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Avhishek\\.gradle\\caches\\transforms-2\\files-2.1\\03736cf4bc3669a69d502627b70a527e\\core-1.1.0\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Avhishek\\.gradle\\caches\\transforms-2\\files-2.1\\ccb20ed30836142a5a66c164bb92a0ce\\core-1.2.0\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

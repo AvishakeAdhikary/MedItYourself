@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="50dp"
     android:background="@color/darkMain"
@@ -26,6 +26,7 @@
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:padding="15dp"
+        android:inputType="textEmailAddress"
         />
 
     <TextView
@@ -42,19 +43,27 @@
         android:inputType = "textPassword"
         android:padding="15dp"
         />
+
     <Button
         android:text="@string/login_main"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/login"
-        style="@style/Button"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        style="@style/Widget.MaterialComponents.Button.Icon"
         />
     <Button
         android:text="@string/create_new"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        style="@style/Button"
+        style="?materialButtonOutlinedStyle"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
         android:id="@+id/register"
         />
-
 </LinearLayout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "G:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
+            "outputFile": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-small-v4\\values-small-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Avhishek\\.gradle\\caches\\transforms-2\\files-2.1\\23bdb263d728861dd129e29d8d6b8229\\material-1.1.0-alpha06\\res\\values-small-v4\\values-small-v4.xml",
+                    "source": "C:\\Users\\Avhishek\\.gradle\\caches\\transforms-2\\files-2.1\\96a2d35781ebbc4b005c4784cd9527ac\\material-1.3.0-alpha01\\res\\values-small-v4\\values-small-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -1,7 +1,7 @@
-#Fri Jul 03 00:24:23 IST 2020
-base.0=G\:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Sun Jul 05 21:39:52 IST 2020
+base.0=C\:\\Projects\\MedItYourself\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=G\:\\Users\\Avhishek\\AndroidStudioProjects\\MedItYourself\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=C\:\\Projects\\MedItYourself\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

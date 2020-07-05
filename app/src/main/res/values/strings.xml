@@ -12,7 +12,10 @@
     <string name="create_new">Create New</string>
     <string name="i_ambulance">Ambulance</string>
     <string name="i_doctor">Doctor</string>
-    <string name="i_shop">Buy Meds</string>
+    <string name="take_picture">Take a picture</string>
+    <string name="confirm_picture">Confirm Picture</string>
+    <string name="i_shop">Shop</string>
+    <string name="buy_meds">Buy Meds</string>
     <string name="choose1">Choose Any One</string>
     <string name="old_login">Have An Account</string>
 
