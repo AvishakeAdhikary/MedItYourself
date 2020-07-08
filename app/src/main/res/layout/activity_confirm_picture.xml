@@ -8,7 +8,7 @@
     android:background="@color/darkMain"
     android:orientation="vertical"
     android:layout_centerInParent="true"
-    tools:context=".MediceneShopActivity">
+    tools:context=".UserMediceneShopActivity">
 
     <ImageView
         android:id="@+id/view_image"

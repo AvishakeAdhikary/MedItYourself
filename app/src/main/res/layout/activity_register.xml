@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="50dp"
@@ -9,27 +9,18 @@
     android:layout_height="match_parent">
 
     <TextView
+        android:id = "@+id/username.register"
+        android:layout_centerHorizontal="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/register_main"
         style="@style/TextViewHeading"
         />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/username"
-        style="@style/TextView"
-        />
-
-    <EditText
-        android:id = "@+id/username"
-        android:layout_width = "match_parent"
-        android:layout_height = "wrap_content"
-        android:textColor="@android:color/white"
-        android:padding="15dp"
-        />
 
     <TextView
+        android:id = "@+id/register.emailtext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username.register"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/email"
@@ -37,7 +28,9 @@
         />
 
     <EditText
-        android:id = "@+id/email"
+        android:id = "@+id/register.email"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register.emailtext"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:padding="15dp"
@@ -45,6 +38,9 @@
         />
 
     <TextView
+        android:id = "@+id/register.passwordtext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register.email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password"
@@ -52,15 +48,37 @@
         />
 
     <EditText
-        android:id = "@+id/password"
+        android:id = "@+id/register.password"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register.passwordtext"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:inputType = "textPassword"
         android:padding="15dp"
         android:textColor="@android:color/white"
         />
+    <TextView
+        android:id = "@+id/register.switchtext"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register.password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        style="@style/TextView"
+        />
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/register.password"
+        android:layout_toRightOf="@+id/register.switchtext"
+        android:paddingTop="20dp"
+        android:id="@+id/register.toggle"
+        android:checked="false"
+        />
     <Button
         android:id="@+id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/register.switchtext"
         android:text="@string/register_main"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
@@ -70,15 +88,22 @@
         android:textAlignment="center"
         style="@style/Widget.MaterialComponents.Button.Icon"
         />
-    <Button
-        android:id="@+id/login"
-        android:text="@string/old_login"
-        android:layout_height="wrap_content"
+
+    <ImageView
         android:layout_width="wrap_content"
-        style="?materialButtonOutlinedStyle"
-        android:textSize="25sp"
-        android:padding="15dp"
-        android:layout_margin="5dp"
-        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_right"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/swipe_right"
         />
-</LinearLayout>
+    <TextView
+        android:id="@+id/swipe_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/regFrag"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>

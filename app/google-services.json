@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "983534495478",
+    "firebase_url": "https://medityourself-29532.firebaseio.com",
+    "project_id": "medityourself-29532",
+    "storage_bucket": "medityourself-29532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983534495478:android:ebfa5e620bd4eeff43aed7",
+        "android_client_info": {
+          "package_name": "com.example.med_it_yourself"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983534495478-ndd9p6iioogthdcaf3rgm147jjt5omrh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.med_it_yourself",
+            "certificate_hash": "4a8e5d5083ff7a2754d52571ee8771c458aa0f68"
+          }
+        },
+        {
+          "client_id": "983534495478-1fkture2tmndf5hafsage0hpq07ri346.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "983534495478-1fkture2tmndf5hafsage0hpq07ri346.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

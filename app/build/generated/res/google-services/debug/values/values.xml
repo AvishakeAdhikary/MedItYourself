@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">983534495478-1fkture2tmndf5hafsage0hpq07ri346.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://medityourself-29532.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">983534495478</string>
+    <string name="google_api_key" translatable="false">AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw</string>
+    <string name="google_app_id" translatable="false">1:983534495478:android:ebfa5e620bd4eeff43aed7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw</string>
+    <string name="google_storage_bucket" translatable="false">medityourself-29532.appspot.com</string>
+    <string name="project_id" translatable="false">medityourself-29532</string>
+</resources>

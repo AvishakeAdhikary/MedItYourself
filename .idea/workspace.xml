@@ -26,12 +26,29 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Med-It-Yourself" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Med-It-Yourself" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Med-It-Yourself" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -66,7 +83,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/TabianCustomCamera-master/TabianCustomCamera-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,20 +91,26 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.-1458788650">
-      <recent name="com.example.med_it_yourself" />
-    </key>
-    <key name="android.template.1694772859">
-      <recent name="com.example.med_it_yourself" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\MedItYourself\app" />
     </key>
     <key name="android.template.-645653602">
+      <recent name="com.example.med_it_yourself" />
+    </key>
+    <key name="android.template.-1458788650">
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\res\font" />
     </key>
+    <key name="android.template.1694772859">
+      <recent name="com.example.med_it_yourself" />
+    </key>
+    <key name="android.template.1693621299">
+      <recent name="com.example.med_it_yourself" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -146,6 +169,25 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MedItYourself [signingReport]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -187,44 +229,65 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="248" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593948702838" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1594148164822">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594148164822" />
     <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog" timestamp="1593934705961">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1593715403205" />
     <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593934705961" />
-    <state x="370" y="170" key="AndroidCreateResourceFileDialog" timestamp="1593846049804">
+    <state x="370" y="170" key="AndroidCreateResourceFileDialog" timestamp="1594120470254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1593715445109" />
-    <state x="370" y="170" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593846049804" />
-    <state x="538" y="129" key="AndroidProcessChooserDialog" timestamp="1593714656001">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="370" y="170" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594120470254" />
+    <state x="756" y="184" key="AndroidProcessChooserDialog" timestamp="1594207773578">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="538" y="129" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593714656001" />
+    <state x="756" y="184" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594207773578" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1593934165107">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593934165107" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom" timestamp="1593929098458">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom" timestamp="1594210393506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="239" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1593929098458" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center" timestamp="1593929098457">
+    <state width="1877" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393506" />
+    <state width="1877" height="347" key="GridCell.Tab.0.center" timestamp="1594210393506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="239" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1593929098457" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left" timestamp="1593929098456">
+    <state width="1877" height="347" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393506" />
+    <state width="1877" height="347" key="GridCell.Tab.0.left" timestamp="1594210393505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="239" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1593929098456" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right" timestamp="1593929098457">
+    <state width="1877" height="347" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393505" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right" timestamp="1594210393506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="239" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1593929098457" />
+    <state width="1877" height="347" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393506" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594210393507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393507" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1594210393506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393506" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1594210393506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393506" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1594210393507">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594210393507" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1593838079146">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -233,11 +296,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593798392843" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1593962843642">
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594186797505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593755041558" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593962843642" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594186797505" />
     <state x="476" y="231" key="run.anything.popup" timestamp="1593944502811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

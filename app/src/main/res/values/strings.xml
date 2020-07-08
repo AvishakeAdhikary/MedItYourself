@@ -14,9 +14,16 @@
     <string name="i_doctor">Doctor</string>
     <string name="take_picture">Take a picture</string>
     <string name="confirm_picture">Confirm Picture</string>
+    <string name="amb_assist">Need Immediate Ambulance</string>
+    <string name="amb_request">Request Ambulance</string>
+    <string name="user">Customer</string>
+    <string name="regFrag">Swipe right to login</string>
+    <string name="logFrag">Swipe left to register</string>
+    <string name="provider">Provider</string>
     <string name="i_shop">Shop</string>
     <string name="buy_meds">Buy Meds</string>
     <string name="choose1">Choose Any One</string>
     <string name="old_login">Have An Account</string>
+    <string name="title_activity_ambulance_map">Map</string>
 
 </resources>

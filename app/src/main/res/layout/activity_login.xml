@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:padding="50dp"
@@ -11,21 +11,28 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
         android:text="@string/login_main"
+        android:id="@+id/login.text"
         style="@style/TextViewHeading"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/login.text"
+        android:id="@+id/username.login"
         android:text="@string/username_email"
         style="@style/TextView"
         />
 
     <EditText
-        android:id = "@+id/username.email"
+        android:id = "@+id/username.useredit"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:padding="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username.login"
         android:inputType="textEmailAddress"
         />
 
@@ -33,15 +40,39 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/password"
+        android:id="@+id/email.login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username.useredit"
         style="@style/TextView"
         />
 
     <EditText
-        android:id = "@+id/password"
+        android:id = "@+id/password.login"
         android:layout_width = "match_parent"
         android:layout_height = "wrap_content"
         android:inputType = "textPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/email.login"
         android:padding="15dp"
+        />
+    <TextView
+        android:id = "@+id/switchtext.login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password.login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user"
+        style="@style/TextView"
+        />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password.login"
+        android:id="@+id/login.toggle"
+        android:layout_toRightOf="@+id/switchtext.login"
+        android:paddingTop="20dp"
+        android:checked="false"
         />
 
     <Button
@@ -49,21 +80,30 @@
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
         android:id="@+id/login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/switchtext.login"
         android:textSize="25sp"
         android:padding="15dp"
         android:layout_margin="5dp"
         android:textAlignment="center"
         style="@style/Widget.MaterialComponents.Button.Icon"
         />
-    <Button
-        android:text="@string/create_new"
-        android:layout_height="wrap_content"
+
+    <ImageView
         android:layout_width="wrap_content"
-        style="?materialButtonOutlinedStyle"
-        android:textSize="25sp"
-        android:padding="15dp"
-        android:layout_margin="5dp"
-        android:textAlignment="center"
-        android:id="@+id/register"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_left"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/swipe_left"
         />
-</LinearLayout>
+    <TextView
+        android:id="@+id/swipe_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/logFrag"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
