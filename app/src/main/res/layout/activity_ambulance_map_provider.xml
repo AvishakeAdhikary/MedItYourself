@@ -19,5 +19,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/provider_logout"
         android:layout_marginStart="5dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/logout"/>
 </FrameLayout>

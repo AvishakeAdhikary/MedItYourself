@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="dae56355" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="WSCM79QW55RWBI6H" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -85,7 +85,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/UberClone-master/UberClone-master/android" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -94,6 +94,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Projects\MedItYourself\app\src\main\res\drawable" />
       <recent name="C:\Projects\MedItYourself\app" />
     </key>
     <key name="android.template.-645653602">
@@ -238,11 +239,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594148164822" />
-    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog" timestamp="1594302302675">
+    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog" timestamp="1594476881198">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1593715403205" />
-    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594302302675" />
+    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594476881198" />
     <state x="370" y="170" key="AndroidCreateResourceFileDialog" timestamp="1594120470254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,10 +254,10 @@
     </state>
     <state x="538" y="129" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1593714656001" />
     <state x="756" y="184" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594300029910" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594371054735">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594475807462">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594371054735" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594475807462" />
     <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1594390036628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -301,11 +302,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593798392843" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594463940146">
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594475195338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593755041558" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594463940146" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594475195338" />
     <state x="476" y="231" key="run.anything.popup" timestamp="1593944502811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

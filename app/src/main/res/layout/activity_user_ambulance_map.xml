@@ -19,6 +19,8 @@
         android:layout_height="wrap_content"
         android:id="@+id/user_logout"
         android:layout_marginStart="5dp"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorPrimary"
         android:text="@string/logout"/>
     <Button
         android:layout_width="match_parent"
@@ -26,6 +28,8 @@
         android:text="@string/amb_request"
         android:id="@+id/request"
         android:layout_gravity="bottom"
+        android:textSize="20dp"
+        android:backgroundTint="@color/colorPrimary"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         />

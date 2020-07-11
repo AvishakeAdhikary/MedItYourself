@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_doctor.png.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\doctor.png"
+    },
+    {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ambulance_user.xml.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_ambulance_user.xml"
     },
@@ -60,6 +64,10 @@
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_action_picker_user.xml"
     },
     {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_medicine.png.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\medicine.png"
+    },
+    {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_authentication.xml.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_authentication.xml"
     },
@@ -74,6 +82,10 @@
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_provider_ambulance.xml.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_provider_ambulance.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ambulance.png.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\ambulance.png"
     },
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_provider_medicene_shop.xml.flat",
@@ -98,6 +110,10 @@
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_user.png.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
@@ -138,5 +154,9 @@
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_shop.png.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\shop.png"
     }
 ]
