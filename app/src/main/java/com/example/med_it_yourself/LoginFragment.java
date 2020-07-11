@@ -66,8 +66,15 @@ public class LoginFragment extends Fragment {
                 FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
                 if(user!=null)
                 {
-                    Intent i = new Intent(getActivity(), UserActionPicker.class);
-                    startActivity(i);
+                    if (mLoginSwitch.isChecked() == false)
+                    {
+                        Intent i = new Intent(getActivity(), UserActionPicker.class);
+                        startActivity(i);
+                    }
+                    else{
+                        Intent i = new Intent(getActivity(), ProviderActionPicker.class);
+                        startActivity(i);
+                    }
                     return;
                 }
             }
@@ -107,7 +114,14 @@ public class LoginFragment extends Fragment {
                 }
                 else
                 {
-                    Toast.makeText(getContext(),"You need to login as a customer at the moment",Toast.LENGTH_LONG).show();
+                    mAuth.signInWithEmailAndPassword(user_email, password).addOnCompleteListener(getActivity(), new OnCompleteListener<AuthResult>() {
+                        @Override
+                        public void onComplete(@NonNull Task<AuthResult> task) {
+                            if(!task.isSuccessful()){
+                                Toast.makeText(getActivity(), "Login error as Provider", Toast.LENGTH_SHORT).show();
+                            }
+                        }
+                    });
                 }
             }
         });

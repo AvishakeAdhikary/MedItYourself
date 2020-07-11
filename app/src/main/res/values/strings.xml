@@ -15,6 +15,9 @@
     <string name="take_picture">Take a picture</string>
     <string name="confirm_picture">Confirm Picture</string>
     <string name="amb_assist">Need Immediate Ambulance</string>
+    <string name="amb_available">Ambulance Is Available</string>
+    <string name="logout">Logout</string>
+    <string name="req_amb">Request Ambulance</string>
     <string name="amb_request">Request Ambulance</string>
     <string name="user">Customer</string>
     <string name="regFrag">Swipe right to login</string>

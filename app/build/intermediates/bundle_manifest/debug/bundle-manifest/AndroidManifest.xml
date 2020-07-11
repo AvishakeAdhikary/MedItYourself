@@ -13,6 +13,7 @@
          location permissions for the "MyLocation" functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -35,6 +36,22 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.med_it_yourself.UserAmbulanceMapActivity" />
+        <activity
+            android:name="com.example.med_it_yourself.ProviderConfirmPicture"
+            android:label="@string/confirm_picture" />
+        <activity
+            android:name="com.example.med_it_yourself.ProviderMediceneShopActivity"
+            android:label="@string/i_shop" />
+        <activity
+            android:name="com.example.med_it_yourself.ProviderDoctorActivity"
+            android:label="@string/i_doctor" />
+        <activity
+            android:name="com.example.med_it_yourself.ProviderAmbulanceActivity"
+            android:label="@string/i_ambulance" />
+        <activity
+            android:name="com.example.med_it_yourself.ProviderActionPicker"
+            android:label="@string/choose1" />
         <activity android:name="com.example.med_it_yourself.AuthenticationActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -49,10 +66,10 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name="com.example.med_it_yourself.AmbulanceMap"
+            android:name="com.example.med_it_yourself.ProviderAmbulanceMap"
             android:label="@string/title_activity_ambulance_map" />
         <activity
-            android:name="com.example.med_it_yourself.ConfirmPicture"
+            android:name="com.example.med_it_yourself.UserConfirmPicture"
             android:label="@string/confirm_picture" />
         <activity
             android:name="com.example.med_it_yourself.UserMediceneShopActivity"

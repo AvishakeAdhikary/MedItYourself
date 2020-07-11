@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/darkMain"
-    tools:context=".MainActivity">
+    tools:context=".AuthenticationActivity">
 
     <androidx.viewpager.widget.ViewPager
         android:layout_width="match_parent"

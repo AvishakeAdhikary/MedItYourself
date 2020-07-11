@@ -63,6 +63,7 @@ public class RegisterFragment extends Fragment {
             }
         });
 
+
         firebaseAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {

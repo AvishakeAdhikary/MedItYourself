@@ -20,7 +20,7 @@ public class UserAmbulanceActivity extends AppCompatActivity {
         mAssistAmbulance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(UserAmbulanceActivity.this,AmbulanceMap.class);
+                Intent i = new Intent(UserAmbulanceActivity.this, UserAmbulanceMapActivity.class);
                 startActivity(i);
             }
         });

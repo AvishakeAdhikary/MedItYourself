@@ -11,7 +11,7 @@
     android:layout_alignParentBottom="true"
     android:layout_alignParentStart="true"
     android:layout_alignParentEnd="true"
-    tools:context=".UserActionPicker">
+    tools:context=".UserAmbulanceActivity">
 
 
 

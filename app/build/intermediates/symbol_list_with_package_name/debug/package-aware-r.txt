@@ -1758,6 +1758,7 @@ id percent
 id pin
 id progress_circular
 id progress_horizontal
+id provider_logout
 id radio
 id register
 id register_email
@@ -1766,6 +1767,7 @@ id register_password
 id register_passwordtext
 id register_switchtext
 id register_toggle
+id request
 id right
 id right_icon
 id right_side
@@ -1864,6 +1866,7 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_logout
 id username_login
 id username_register
 id username_useredit
@@ -1939,15 +1942,21 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_action_picker_user
-layout activity_ambulance_map
+layout activity_ambulance_map_provider
 layout activity_ambulance_user
 layout activity_authentication
-layout activity_confirm_picture
+layout activity_confirm_picture_user
 layout activity_doctor_user
 layout activity_login
 layout activity_main
 layout activity_medicene_shop_user
+layout activity_provider_action_picker
+layout activity_provider_ambulance
+layout activity_provider_confirm_picture
+layout activity_provider_doctor
+layout activity_provider_medicene_shop
 layout activity_register
+layout activity_user_ambulance_map
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2019,6 +2028,7 @@ layout text_view_without_line_height
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
+raw map_style
 string abc_action_bar_home_description
 string abc_action_bar_up_description
 string abc_action_menu_overflow_description
@@ -2047,6 +2057,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string amb_assist
+string amb_available
 string amb_request
 string app_name
 string appbar_scrolling_view_behavior
@@ -2101,6 +2112,7 @@ string icon_content_description
 string item_view_role_description
 string logFrag
 string login_main
+string logout
 string mtrl_badge_numberless_content_description
 string mtrl_chip_close_icon_content_description
 string mtrl_exceed_max_badge_number_content_description
@@ -2149,6 +2161,7 @@ string project_id
 string provider
 string regFrag
 string register_main
+string req_amb
 string search_menu_title
 string status_bar_notification_info_overflow
 string take_picture

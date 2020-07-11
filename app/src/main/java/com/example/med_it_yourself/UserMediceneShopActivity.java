@@ -232,7 +232,7 @@ public class UserMediceneShopActivity extends AppCompatActivity {
     private void sendIntent()
     {
 
-        Intent i = new Intent(this,ConfirmPicture.class);
+        Intent i = new Intent(this, UserConfirmPicture.class);
         String filename = file.getAbsolutePath();
         i.putExtra("filename",filename);
         startActivity(i);
