@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <FrameLayout
     tools:context=".UserAmbulanceMapActivity"
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -8,29 +7,142 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent">
 
-<fragment
-    android:id="@+id/map"
-    android:name="com.google.android.gms.maps.SupportMapFragment"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-     />
-    <Button
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/user_logout"
-        android:layout_marginStart="5dp"
-        android:textSize="20dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/logout"/>
-    <Button
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_buttons">
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_logout"
+                android:text="@string/logout"/>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_history"
+                android:text="@string/history"/>
+            <Button
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_margin="5dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                android:id="@+id/user_settings"
+                android:text="@string/settings"/>
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@+id/user_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20sp">
+            <fragment
+                android:id="@+id/place_autocomplete_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                />
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/amb_request"
-        android:id="@+id/request"
-        android:layout_gravity="bottom"
-        android:textSize="20dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        />
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/AmbulanceDriverInfo"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:background="@android:color/white"
+            android:visibility="gone">
+            <ImageView
+                android:layout_width="100sp"
+                android:layout_height="100sp"
+                android:id="@+id/AmbulanceDriverProfileImage"
+                android:src="@mipmap/ic_launcher"
+                android:padding="20sp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingStart="40sp"
+                android:paddingEnd="40sp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AmbulanceDriverName"
+                    android:paddingBottom="10sp"
+                    android:paddingTop="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AmbulanceDriverPhone"
+                    android:paddingBottom="10sp"
+                    android:paddingTop="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/AmbulanceDriverCar"
+                    android:paddingBottom="10sp"
+                    android:paddingTop="20sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/UserRadioGroup"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amb_r"
+                    android:layout_weight="1"
+                    android:id="@+id/ambulance_r"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amb_pre"
+                    android:layout_weight="1"
+                    android:id="@+id/ambulance_pre"/>
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/amb_lux"
+                    android:layout_weight="1"
+                    android:id="@+id/ambulance_lux"/>
+            </RadioGroup>
+            <Button
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/amb_request"
+                android:textSize="20dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/request"/>
+        </LinearLayout>
+    </LinearLayout>
+
 </FrameLayout>

@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="WSCM79QW55RWBI6H" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="dae56355" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -63,10 +63,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="layoutResourceFile" />
         <option value="layoutResourceFile_vertical" />
-        <option value="resourceFile" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -93,6 +93,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1326000289">
+      <recent name="com.example.med_it_yourself" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\MedItYourself\app\src\main\res\drawable" />
       <recent name="C:\Projects\MedItYourself\app" />
@@ -104,6 +107,7 @@
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\MedItYourself\app\src\main\res\drawable" />
       <recent name="G:\Users\Avhishek\AndroidStudioProjects\MedItYourself\app\src\main\res\font" />
     </key>
     <key name="android.template.1694772859">
@@ -239,16 +243,16 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594148164822" />
-    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog" timestamp="1594476881198">
+    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog" timestamp="1594541485018">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1593715403205" />
-    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594476881198" />
-    <state x="370" y="170" key="AndroidCreateResourceFileDialog" timestamp="1594120470254">
+    <state x="370" y="170" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594541485018" />
+    <state x="370" y="170" key="AndroidCreateResourceFileDialog" timestamp="1594541768377">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="263" y="119" key="AndroidCreateResourceFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1593715445109" />
-    <state x="370" y="170" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594120470254" />
+    <state x="370" y="170" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594541768377" />
     <state x="756" y="184" key="AndroidProcessChooserDialog" timestamp="1594300029910">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -258,26 +262,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594475807462" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1594390036628">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1594563194098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594390036628" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1594390036627">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594563194098" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1594563194098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594390036627" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1594390036626">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594563194098" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1594563194098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594390036626" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1594390036628">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594563194098" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1594563194098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594390036628" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594563194098" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594303471624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -302,11 +306,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593798392843" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594475195338">
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594570002219">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593755041558" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594475195338" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594570002219" />
     <state x="476" y="231" key="run.anything.popup" timestamp="1593944502811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -11,13 +11,21 @@ import android.location.Location;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.firebase.geofire.GeoFire;
 import com.firebase.geofire.GeoLocation;
 import com.firebase.geofire.GeoQuery;
 import com.firebase.geofire.GeoQueryEventListener;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -30,6 +38,10 @@ import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.maps.model.MapStyleOptions;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.libraries.places.api.Places;
+import com.google.android.libraries.places.api.model.Place;
+import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
+import com.google.android.libraries.places.widget.listener.PlaceSelectionListener;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -37,8 +49,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener {
 
@@ -47,7 +61,7 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
     Location mLastLocation;
     LocationRequest mLocationRequest;
 
-    private Button mLogout, mRequest;
+    private Button mLogout, mRequest, mSettings, mHistory;
 
     private LatLng pickupLocation;
 
@@ -57,25 +71,55 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
     private Boolean AmbulanceFound = false;
     private String AmbulanceFoundID;
 
+    private String destination, requestService;
+    private LatLng destinationLatLng;
+    private LinearLayout mDriverInfo;
+    private ImageView mDriverProfileImage;
+    private TextView mDriverName, mDriverPhone, mDriverCar;
+    private RadioGroup mRadioGroup;
+
     private Boolean requestBol = false;
 
     private Marker pickupMarker;
     GeoQuery geoQuery;
-
+    private SupportMapFragment mapFragment;
+    final int LOCATION_REQUEST_CODE = 1;
 
     private DatabaseReference driverLocationRef;
     private ValueEventListener driverLocationRefListener;
+
+    private DatabaseReference driveHasEndedRef;
+    private ValueEventListener driveHasEndedRefListener;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_ambulance_map);
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
+        mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED)
+        {
+            ActivityCompat.requestPermissions(UserAmbulanceMapActivity.this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, LOCATION_REQUEST_CODE);
+        }else{
+            mapFragment.getMapAsync(this);
+        }
+
+        destinationLatLng = new LatLng(0.0,0.0);
+        mDriverInfo = (LinearLayout) findViewById(R.id.AmbulanceDriverInfo);
+        mDriverProfileImage = (ImageView) findViewById(R.id.AmbulanceDriverProfileImage);
+        mDriverName = (TextView) findViewById(R.id.AmbulanceDriverName);
+        mDriverPhone = (TextView) findViewById(R.id.AmbulanceDriverPhone);
+        mDriverCar = (TextView) findViewById(R.id.AmbulanceDriverCar);
+
+
+        mRadioGroup = (RadioGroup) findViewById(R.id.UserRadioGroup);
+        mRadioGroup.check(R.id.ambulance_r);
+        mSettings = (Button) findViewById(R.id.user_settings);
+        mHistory = (Button) findViewById(R.id.user_history);
+
 
         mLogout = (Button) findViewById(R.id.user_logout);
         mRequest = (Button) findViewById(R.id.request);
+
         mLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -90,48 +134,76 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
         mRequest.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (requestBol){
-                    requestBol = false;
-                    geoQuery.removeAllListeners();
-                    driverLocationRef.removeEventListener(driverLocationRefListener);
 
-
-                    if (AmbulanceFoundID != null){
-                        DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID);
-                        driverRef.setValue(true);
-                        AmbulanceFoundID = null;
-
-                    }
-                    AmbulanceFound = false;
-                    radius = 1;
-                    String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-
-                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("UserRequest");
-                    GeoFire geoFire = new GeoFire(ref);
-                    geoFire.removeLocation(userId);
-
-                    if(pickupMarker != null){
-                        pickupMarker.remove();
-                    }
-                    if (mDriverMarker != null){
-                        mDriverMarker.remove();
-                    }
-                    mRequest.setText("Call Ambulance Driver");
-
+                if (requestBol)
+                {
+                    endRide();
                 }
-                else{String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                else{
+                    int selectId = mRadioGroup.getCheckedRadioButtonId();
+                    final RadioButton radioButton = (RadioButton) findViewById(selectId);
+                    if (radioButton.getText() == null){
+                        return;
+                    }
+                    requestService = radioButton.getText().toString();
+                    requestBol = true;
+                    String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference("UserRequest");
 
-                DatabaseReference ref = FirebaseDatabase.getInstance().getReference("UserRequest");
-                GeoFire geoFire = new GeoFire(ref);
-                geoFire.setLocation(userId, new GeoLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude()));
+                    GeoFire geoFire = new GeoFire(ref);
+                    geoFire.setLocation(userId, new GeoLocation(mLastLocation.getLatitude(), mLastLocation.getLongitude()));
 
-                pickupLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
-                pickupMarker = mMap.addMarker(new MarkerOptions().position(pickupLocation).title("Pickup Here"));
+                    pickupLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation.getLongitude());
+                    pickupMarker = mMap.addMarker(new MarkerOptions().position(pickupLocation).title("Pickup Here"));
 
-                mRequest.setText("Getting your Ambulance....");
-                getClosestDriver();}
+                    mRequest.setText("Getting Your Ambulance Driver....");
+
+                    getClosestDriver();
+                }
             }
         });
+
+        mSettings.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserAmbulanceMapActivity.this, UserSettingsActivity.class);
+                startActivity(intent);
+                return;
+            }
+        });
+
+        mHistory.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(UserAmbulanceMapActivity.this, HistoryActivity.class);
+                intent.putExtra("UserOrDriver", "Customers");
+                startActivity(intent);
+                return;
+            }
+        });
+
+        if (!Places.isInitialized()) {
+            Places.initialize(getApplicationContext(), "AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw");
+        }
+
+        AutocompleteSupportFragment autocompleteFragment = (AutocompleteSupportFragment) getSupportFragmentManager().findFragmentById(R.id.place_autocomplete_fragment);
+
+        autocompleteFragment.setPlaceFields(Arrays.asList(Place.Field.ID, Place.Field.NAME));
+
+        autocompleteFragment.setOnPlaceSelectedListener(new PlaceSelectionListener() {
+            @Override
+            public void onPlaceSelected(Place place) {
+                // TODO: Get info about the selected place.
+                Toast.makeText(UserAmbulanceMapActivity.this,"Inside User onPlaceSelected()",Toast.LENGTH_SHORT);
+            }
+
+            @Override
+            public void onError(Status status) {
+                // TODO: Handle the error.
+                Toast.makeText(UserAmbulanceMapActivity.this,"Inside User onError()",Toast.LENGTH_SHORT);
+            }
+        });
+
     }
 
     private void getClosestDriver(){
@@ -144,19 +216,40 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
         geoQuery.addGeoQueryEventListener(new GeoQueryEventListener() {
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
-                if (!AmbulanceFound){
-                    AmbulanceFound = true;
-                    AmbulanceFoundID = key;
+                if (!AmbulanceFound && requestBol){
+                    DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(key);
+                    mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+                        @Override
+                        public void onDataChange(DataSnapshot dataSnapshot) {
+                            if (dataSnapshot.exists() && dataSnapshot.getChildrenCount()>0){
+                                Map<String, Object> driverMap = (Map<String, Object>) dataSnapshot.getValue();
+                                if (AmbulanceFound){
+                                    return;
+                                }
 
-                    DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID);
-                    String customerId = FirebaseAuth.getInstance().getCurrentUser().getUid();
-                    HashMap map = new HashMap();
-                    map.put("UserRideId", customerId);
-                    driverRef.updateChildren(map);
+                                if(driverMap.get("service").equals(requestService)){
+                                    AmbulanceFound = true;
+                                    AmbulanceFoundID = dataSnapshot.getKey();
 
-                    getDriverLocation();
-                    mRequest.setText("Looking for Ambulance Driver Location....");
-
+                                    DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID).child("UserRequest");
+                                    String customerId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+                                    HashMap map = new HashMap();
+                                    map.put("UserRideId", customerId);
+                                    map.put("Destination", destination);
+                                    map.put("DestinationLat", destinationLatLng.latitude);
+                                    map.put("DestinationLng", destinationLatLng.longitude);
+                                    driverRef.updateChildren(map);
+                                    getDriverLocation();
+                                    getDriverInfo();
+                                    getHasRideEnded();
+                                    mRequest.setText("Looking for Ambulance Driver Location....");
+                                }
+                            }
+                        }
+                        @Override
+                        public void onCancelled(DatabaseError databaseError) {
+                        }
+                    });
                 }
             }
 
@@ -232,6 +325,83 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
 
     }
 
+    private void getDriverInfo(){
+        mDriverInfo.setVisibility(View.VISIBLE);
+        DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID);
+        mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(dataSnapshot.exists() && dataSnapshot.getChildrenCount()>0){
+                    Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
+                    if(map.get("Name")!=null){
+                        mDriverName.setText(map.get("Name").toString());
+                    }
+                    if(map.get("Phone")!=null){
+                        mDriverPhone.setText(map.get("Phone").toString());
+                    }
+                    if(map.get("Car")!=null){
+                        mDriverCar.setText(map.get("Car").toString());
+                    }
+                    if(map.get("ProfileImageUrl")!=null){
+                        Glide.with(getApplication()).load(map.get("ProfileImageUrl").toString()).into(mDriverProfileImage);
+                    }
+                }
+            }
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+    }
+
+    private void getHasRideEnded(){
+        driveHasEndedRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID).child("UserRequest").child("UserRideId");
+        driveHasEndedRefListener = driveHasEndedRef.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                if(dataSnapshot.exists()){
+
+                }else{
+                    endRide();
+                }
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+            }
+        });
+    }
+
+    private void endRide(){
+        requestBol = false;
+        geoQuery.removeAllListeners();
+        driverLocationRef.removeEventListener(driverLocationRefListener);
+        driveHasEndedRef.removeEventListener(driveHasEndedRefListener);
+        if (AmbulanceFoundID != null)
+        {
+            DatabaseReference driverRef = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(AmbulanceFoundID).child("UserRequest");
+            driverRef.removeValue();
+            AmbulanceFoundID = null;
+        }
+        AmbulanceFound = false;
+        radius = 1;
+        String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
+        DatabaseReference ref = FirebaseDatabase.getInstance().getReference("UserRequest");
+        GeoFire geoFire = new GeoFire(ref);
+        geoFire.removeLocation(userId);
+        if(pickupMarker != null){
+            pickupMarker.remove();
+        }
+        if (mDriverMarker != null){
+            mDriverMarker.remove();
+        }
+        mRequest.setText("Request Ambulance");
+        mDriverInfo.setVisibility(View.GONE);
+        mDriverName.setText("");
+        mDriverPhone.setText("");
+        mDriverCar.setText("Destination: --");
+        mDriverProfileImage.setImageResource(R.mipmap.ic_launcher);
+    }
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -286,9 +456,21 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
     }
 
 
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
+        switch (requestCode) {
+            case LOCATION_REQUEST_CODE: {
+                // If request is cancelled, the result arrays are empty.
+                if (grantResults.length > 0
+                        && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
 
-    @Override
-    protected void onStop() {
-        super.onStop();
+                    mapFragment.getMapAsync(this);
+
+
+                } else {
+                    Toast.makeText(getApplicationContext(), "Please Provide The Permission", Toast.LENGTH_LONG).show();
+                }
+                break;
+            }
+        }
     }
 }
