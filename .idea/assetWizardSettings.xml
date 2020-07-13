@@ -25,6 +25,7 @@
                                               <map>
                                                 <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\PROGRA~1\KMSpico\temp\ic_android_black_24dp.xml" />
+                                                <entry key="opacityPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -79,7 +80,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Avhishek\Downloads\MedItYourselfAssetsPictures\medicine.svg" />
+                                                <entry key="imagePath" value="C:\Users\Avhishek\Downloads\MedItYourselfAssetsPictures\medicine.png" />
                                                 <entry key="scalingPercent" value="43" />
                                               </map>
                                             </option>

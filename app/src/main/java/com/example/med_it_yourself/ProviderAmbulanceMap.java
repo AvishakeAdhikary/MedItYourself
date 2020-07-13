@@ -12,8 +12,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.Manifest;
+import android.widget.CompoundButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Switch;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -63,6 +65,8 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
 
     private Button mLogout, mSettings, mRideStatus;
 
+    private Switch mWorkingSwitch;
+
     private int status = 0;
 
     private String UserId = "", destination;
@@ -83,6 +87,8 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
     private ValueEventListener assignedCustomerPickupLocationRefListener;
 
     private List<Polyline> polylines;
+
+    private static final int[] COLORS = new int[]{R.color.primary_dark_material_light};
     final int LOCATION_REQUEST_CODE = 1;
 
 
@@ -106,6 +112,8 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
 
         mSettings = (Button) findViewById(R.id.provider_settings);
         mRideStatus = (Button) findViewById(R.id.RideStatus);
+
+        mWorkingSwitch = (Switch) findViewById(R.id.ProviderWorkingSwitch);
 
         mLogout = (Button) findViewById(R.id.provider_logout);
         mLogout.setOnClickListener(new View.OnClickListener() {
@@ -150,6 +158,18 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
                 return;
             }
         });
+
+        mWorkingSwitch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if (isChecked){
+                    connectDriver();
+                }else{
+                    disconnectDriver();
+                }
+            }
+        });
+
         getAssignedCustomer();
     }
 
@@ -389,6 +409,13 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
     }
 
+    private void connectDriver(){
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            ActivityCompat.requestPermissions(ProviderAmbulanceMap.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, LOCATION_REQUEST_CODE);
+        }
+        LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
+    }
+
     private void disconnectDriver(){
         LocationServices.FusedLocationApi.removeLocationUpdates(mGoogleApiClient, this);
         String userId = FirebaseAuth.getInstance().getCurrentUser().getUid();
@@ -420,8 +447,6 @@ public class ProviderAmbulanceMap extends FragmentActivity implements OnMapReady
             disconnectDriver();
         }
     }
-
-    private static final int[] COLORS = new int[]{R.color.primary_dark_material_light};
     @Override
     public void onRoutingFailure(RouteException e) {
         if(e != null) {

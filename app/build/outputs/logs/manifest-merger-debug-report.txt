@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.libraries.places:places:2.3.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\030d81484588ee42732089e72d75ad0f\jetified-places-2.3.0\AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\95c27f1e561f59170f577bf124144243\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -12,7 +12,7 @@ MERGED from [com.github.jd-alexander:library:1.1.0] C:\Users\Avhishek\.gradle\ca
 MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\0f531e27d36f966ff60e67ec864464e0\jetified-play-services-location-17.0.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:15:1-38:12
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:17:1-42:12
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:17:1-39:12
 MERGED from [com.firebase:geofire-android:2.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\65ad3bde9502a0e647c1cd1451b7df42\jetified-geofire-android-2.1.1\AndroidManifest.xml:1:1-5:12
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\62c53a30f132c6f6415620e53fe7c190\jetified-glide-4.11.0\AndroidManifest.xml:2:1-12:12
@@ -66,20 +66,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Avhishek\.gradle\caches\transf
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\5bff59c214769dcd1f3d0d488ca55f0c\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35285c445663f7c228f657ad385136d0\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\7bf1406abeb45513561fa54757c5ad33\jetified-transport-api-2.1.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
 	package
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-85:12
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:11-69
@@ -131,16 +131,24 @@ uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:14:5-81
 	android:name
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:15:5-80
+	android:name
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:15:22-77
 uses-feature#android.hardware.camera
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:16:5-60
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:17:5-60
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:16:19-57
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:17:19-57
 uses-feature#android.hardware.camera2.full
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:17:5-66
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:18:5-66
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:17:19-63
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:18:19-63
+uses-feature#android.hardware.camera.any
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:5-64
+	android:name
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:19-61
 application
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:5-83:19
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:5-85:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.libraries.places:places:2.3.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\030d81484588ee42732089e72d75ad0f\jetified-places-2.3.0\AndroidManifest.xml:13:5-21:19
@@ -155,8 +163,8 @@ MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Avhi
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\0f531e27d36f966ff60e67ec864464e0\jetified-play-services-location-17.0.0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:28:5-36:19
 MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:28:5-36:19
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:22:5-37:19
 MERGED from [com.github.bumptech.glide:glide:4.11.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\62c53a30f132c6f6415620e53fe7c190\jetified-glide-4.11.0\AndroidManifest.xml:10:5-20
@@ -194,123 +202,123 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\Avhishek\.gradle\caches\t
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.2.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d79eadb82c8d6fd49530c3687aa44a6\core-1.2.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:24:9-41
 	android:roundIcon
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:25:9-54
 	android:icon
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:23:9-43
 	android:allowBackup
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:25:9-40
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:9-40
 activity#com.example.med_it_yourself.HistoryActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:26:9-62
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-53
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:26:19-50
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:19-50
 activity#com.example.med_it_yourself.UserSettingsActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:9-58
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:9-58
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:19-55
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:19-55
 activity#com.example.med_it_yourself.ProviderSettingsActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-62
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:9-62
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:19-59
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:19-59
 activity#com.example.med_it_yourself.UserAmbulanceMapActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:9-62
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:9-62
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:19-59
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:19-59
 activity#com.example.med_it_yourself.ProviderConfirmPicture
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:9-32:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:9-34:55
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:13-51
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:13-51
 activity#com.example.med_it_yourself.ProviderMediceneShopActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:9-35:46
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:9-37:46
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:13-43
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-43
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-57
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:13-57
 activity#com.example.med_it_yourself.ProviderDoctorActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:9-38:48
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:38:9-40:48
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:38:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:40:13-45
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-51
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:39:13-51
 activity#com.example.med_it_yourself.ProviderAmbulanceActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:39:9-41:51
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:9-43:51
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:13-48
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:13-48
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:40:13-54
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:42:13-54
 activity#com.example.med_it_yourself.ProviderActionPicker
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:42:9-44:47
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:44:9-46:47
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:46:13-44
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:13-49
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:13-49
 activity#com.example.med_it_yourself.AuthenticationActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:9-60
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:47:9-60
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:19-57
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:47:19-57
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:54:9-56:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:56:9-58:55
 	android:value
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:56:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:58:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:55:13-58
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:57:13-58
 activity#com.example.med_it_yourself.ProviderAmbulanceMap
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:58:9-60:68
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:60:9-62:68
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:60:13-65
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:62:13-65
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:59:13-49
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:61:13-49
 activity#com.example.med_it_yourself.UserConfirmPicture
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:61:9-63:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:63:9-65:55
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:63:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:65:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:62:13-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:64:13-47
 activity#com.example.med_it_yourself.UserMediceneShopActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:64:9-66:46
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:66:9-68:46
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:66:13-43
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:68:13-43
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:65:13-53
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:67:13-53
 activity#com.example.med_it_yourself.UserDoctorActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:67:9-69:48
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:69:9-71:48
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:69:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:71:13-45
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:68:13-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:70:13-47
 activity#com.example.med_it_yourself.UserAmbulanceActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:70:9-72:51
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:72:9-74:51
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:72:13-48
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:74:13-48
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:71:13-50
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:73:13-50
 activity#com.example.med_it_yourself.UserActionPicker
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:73:9-75:47
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:75:9-77:47
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:75:13-44
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:77:13-44
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:74:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:76:13-45
 activity#com.example.med_it_yourself.MainActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:76:9-82:20
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:9-84:20
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:76:19-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:77:13-81:29
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:79:13-83:29
 action#android.intent.action.MAIN
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:17-69
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:17-69
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:25-66
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:17-77
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:17-77
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:27-74
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:27-74
 uses-sdk
 INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
@@ -331,8 +339,8 @@ MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Avhi
 MERGED from [com.google.android.gms:play-services-location:17.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\0f531e27d36f966ff60e67ec864464e0\jetified-play-services-location-17.0.0\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:21:5-44
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.firebase:geofire-android:2.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\65ad3bde9502a0e647c1cd1451b7df42\jetified-geofire-android-2.1.1\AndroidManifest.xml:2:3-70
@@ -479,8 +487,8 @@ ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Avhishek\
 		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\f25cb47cdff75fe8ba838175dae7fbed\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
-MERGED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:33:9-39:19
 MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-storage:19.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\b338bb93c259f5f56bb62754a45d233c\jetified-firebase-storage-19.1.1\AndroidManifest.xml:30:9-36:19
 MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\9f50104a3ed305ca2fc55bd80a29800d\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
@@ -500,27 +508,27 @@ ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gra
 	android:name
 		ADDED from [com.google.firebase:firebase-database:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6ae2d636d1b0a123e40b25bf192e7a20\jetified-firebase-database-19.3.1\AndroidManifest.xml:33:17-109
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
-ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:24:9-31:50
 	android:excludeFromRecents
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:26:13-46
 	android:launchMode
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:28:13-44
 	android:exported
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:27:13-36
 	android:permission
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:29:13-102
 	android:theme
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:30:13-72
 	tools:replace
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:31:13-47
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:31:13-47
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:25:13-85
 meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
-ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:36:13-38:85
 	android:value
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:38:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-auth:19.3.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35d59384e5f94fa3a8b66cea2c1872ae\jetified-firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+		ADDED from [com.google.firebase:firebase-auth:19.3.2] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\4b6c239d10ee2845936010180a95495d\jetified-firebase-auth-19.3.2\AndroidManifest.xml:37:17-109
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:18.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\6d14325ed35863757137b9086d7822f7\jetified-play-services-auth-18.0.0\AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

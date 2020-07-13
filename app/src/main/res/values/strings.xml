@@ -44,4 +44,5 @@
     <string name="pickup_customer">Picked Up Customer</string>
     <string name="destination">Destination: </string>
     <string name="history">History</string>
+    <string name="active">Active</string>
 </resources>

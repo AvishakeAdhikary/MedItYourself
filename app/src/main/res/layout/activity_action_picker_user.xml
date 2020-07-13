@@ -13,6 +13,7 @@
     android:layout_alignParentEnd="true"
     tools:context=".UserActionPicker">
 
+
     <Button
         android:text="@string/i_ambulance"
         android:layout_height="wrap_content"
@@ -60,5 +61,4 @@
         android:layout_below="@id/i_doctor"
         android:id="@+id/i_shop"
         />
-
 </RelativeLayout>

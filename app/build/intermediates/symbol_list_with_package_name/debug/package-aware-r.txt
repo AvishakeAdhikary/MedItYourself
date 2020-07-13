@@ -1843,6 +1843,7 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable car
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1885,6 +1886,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable location
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1945,6 +1947,7 @@ id HistoryRecyclerView
 id META
 id ProviderProfileImage
 id ProviderRadioGroup
+id ProviderWorkingSwitch
 id RideId
 id RideStatus
 id SHIFT
@@ -2515,6 +2518,7 @@ layout text_view_without_line_height
 menu activity_main_drawer
 menu main
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 raw map_style
@@ -2546,6 +2550,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string active
 string amb_assist
 string amb_available
 string amb_lux

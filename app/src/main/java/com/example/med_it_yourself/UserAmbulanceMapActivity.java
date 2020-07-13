@@ -40,6 +40,7 @@ import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.libraries.places.api.Places;
 import com.google.android.libraries.places.api.model.Place;
+import com.google.android.libraries.places.api.net.PlacesClient;
 import com.google.android.libraries.places.widget.AutocompleteSupportFragment;
 import com.google.android.libraries.places.widget.listener.PlaceSelectionListener;
 import com.google.firebase.auth.FirebaseAuth;
@@ -102,6 +103,9 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
         }else{
             mapFragment.getMapAsync(this);
         }
+
+        Places.initialize(getApplicationContext(), "AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw");
+        PlacesClient placesClient = Places.createClient(this);
 
         destinationLatLng = new LatLng(0.0,0.0);
         mDriverInfo = (LinearLayout) findViewById(R.id.AmbulanceDriverInfo);
@@ -194,7 +198,8 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
             @Override
             public void onPlaceSelected(Place place) {
                 // TODO: Get info about the selected place.
-                Toast.makeText(UserAmbulanceMapActivity.this,"Inside User onPlaceSelected()",Toast.LENGTH_SHORT);
+                destination = place.getName().toString();
+                destinationLatLng = place.getLatLng();
             }
 
             @Override

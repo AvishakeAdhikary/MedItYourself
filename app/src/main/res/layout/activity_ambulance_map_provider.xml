@@ -14,23 +14,41 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
          />
-    <Button
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/provider_logout"
-        android:layout_marginStart="5dp"
-        android:textSize="20dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="@string/logout"/>
-    <Button
-        android:layout_gravity="end"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:textSize="20dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:id="@+id/provider_settings"
-        android:text="@string/settings"/>
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/provider_logout"
+            android:layout_marginStart="5dp"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:textSize="20sp"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/logout"/>
+        <Switch
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/active"
+            android:layout_margin="10sp"
+            android:textSize="20sp"
+            android:id="@+id/ProviderWorkingSwitch"/>
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textSize="20sp"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:backgroundTint="@color/colorPrimary"
+            android:id="@+id/provider_settings"
+            android:text="@string/settings"/>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -38,7 +56,7 @@
         android:layout_gravity="bottom"
         android:orientation="vertical"
         android:background="@android:color/white"
-        android:visibility="gone">
+        android:visibility="visible">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -53,7 +71,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
-                android:paddingLeft="40sp">
+                android:paddingStart="40sp"
+                android:paddingEnd="40sp">
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -78,6 +97,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/pickup_customer"
+            style="@style/Widget.MaterialComponents.Button.Icon"
             android:id="@+id/RideStatus"/>
 
 

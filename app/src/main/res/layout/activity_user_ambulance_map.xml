@@ -27,6 +27,7 @@
                 android:backgroundTint="@color/colorPrimary"
                 android:layout_height="wrap_content"
                 android:id="@+id/user_logout"
+                style="@style/Widget.MaterialComponents.Button.Icon"
                 android:text="@string/logout"/>
             <Button
                 android:layout_weight="1"
@@ -35,6 +36,7 @@
                 android:backgroundTint="@color/colorPrimary"
                 android:layout_height="wrap_content"
                 android:id="@+id/user_history"
+                style="@style/Widget.MaterialComponents.Button.Icon"
                 android:text="@string/history"/>
             <Button
                 android:layout_weight="1"
@@ -43,6 +45,7 @@
                 android:backgroundTint="@color/colorPrimary"
                 android:layout_height="wrap_content"
                 android:id="@+id/user_settings"
+                style="@style/Widget.MaterialComponents.Button.Icon"
                 android:text="@string/settings"/>
         </LinearLayout>
 
@@ -139,9 +142,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/amb_request"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:backgroundTint="@color/colorPrimary"
-                android:id="@+id/request"/>
+                android:id="@+id/request"
+                style="@style/Widget.MaterialComponents.Button.Icon"
+                />
         </LinearLayout>
     </LinearLayout>
 
