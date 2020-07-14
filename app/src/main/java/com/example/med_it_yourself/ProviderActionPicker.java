@@ -35,7 +35,7 @@ public class ProviderActionPicker extends AppCompatActivity {
         mIShop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(ProviderActionPicker.this, ProviderMediceneShopActivity.class);
+                Intent i = new Intent(ProviderActionPicker.this, ProviderMedicineShopActivity.class);
                 startActivity(i);
             }
         });

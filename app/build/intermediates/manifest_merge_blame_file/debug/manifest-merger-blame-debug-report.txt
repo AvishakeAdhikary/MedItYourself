@@ -96,7 +96,7 @@
 50-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-52
 51        <activity
 51-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:9-37:46
-52            android:name="com.example.med_it_yourself.ProviderMediceneShopActivity"
+52            android:name="com.example.med_it_yourself.ProviderMedicineShopActivity"
 52-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:13-57
 53            android:label="@string/i_shop" />
 53-->C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-43

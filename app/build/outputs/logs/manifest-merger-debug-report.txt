@@ -235,7 +235,7 @@ ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:9-34:55
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-52
 	android:name
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:13-51
-activity#com.example.med_it_yourself.ProviderMediceneShopActivity
+activity#com.example.med_it_yourself.ProviderMedicineShopActivity
 ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:9-37:46
 	android:label
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-43

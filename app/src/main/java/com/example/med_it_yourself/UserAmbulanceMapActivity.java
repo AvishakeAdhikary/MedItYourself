@@ -222,7 +222,7 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
             @Override
             public void onKeyEntered(String key, GeoLocation location) {
                 if (!AmbulanceFound && requestBol){
-                    DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Drivers").child(key);
+                    DatabaseReference mCustomerDatabase = FirebaseDatabase.getInstance().getReference().child("Users").child("Providers").child(key);
                     mCustomerDatabase.addListenerForSingleValueEvent(new ValueEventListener() {
                         @Override
                         public void onDataChange(DataSnapshot dataSnapshot) {

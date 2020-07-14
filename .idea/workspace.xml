@@ -93,7 +93,7 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="android.template.1326000289">
+    <key name="android.template.-2142470052">
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -101,6 +101,9 @@
       <recent name="C:\Projects\MedItYourself\app" />
     </key>
     <key name="android.template.-645653602">
+      <recent name="com.example.med_it_yourself" />
+    </key>
+    <key name="android.template.1693621299">
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="android.template.-1458788650">
@@ -113,16 +116,13 @@
     <key name="android.template.1694772859">
       <recent name="com.example.med_it_yourself" />
     </key>
-    <key name="android.template.1693621299">
+    <key name="android.template.1326000289">
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="android.template.67985580">
       <recent name="com.example.med_it_yourself" />
     </key>
     <key name="android.template.-1270082390">
-      <recent name="com.example.med_it_yourself" />
-    </key>
-    <key name="android.template.-2142470052">
       <recent name="com.example.med_it_yourself" />
     </key>
   </component>
@@ -268,26 +268,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1594640987446" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom" timestamp="1594642361982">
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom" timestamp="1594746418035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594642361982" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center" timestamp="1594642361982">
+    <state width="1877" height="317" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594746418035" />
+    <state width="1877" height="317" key="GridCell.Tab.0.center" timestamp="1594746418035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594642361982" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left" timestamp="1594642361982">
+    <state width="1877" height="317" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594746418035" />
+    <state width="1877" height="317" key="GridCell.Tab.0.left" timestamp="1594746418034">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594642361982" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right" timestamp="1594642361982">
+    <state width="1877" height="317" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594746418034" />
+    <state width="1877" height="317" key="GridCell.Tab.0.right" timestamp="1594746418035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="309" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593716166046" />
-    <state width="1877" height="280" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594642361982" />
+    <state width="1877" height="317" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594746418035" />
     <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1594303471624">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -312,11 +312,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594640562047" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594652078598">
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog" timestamp="1594727162081">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1593755041558" />
-    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594652078598" />
+    <state x="533" y="269" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594727162081" />
     <state x="476" y="231" key="run.anything.popup" timestamp="1593944502811">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -8,24 +8,25 @@
     android:background="@color/darkMain"
     android:orientation="vertical"
     android:layout_centerInParent="true"
-    tools:context=".ProviderMediceneShopActivity">
+    tools:context=".ProviderMedicineShopActivity">
 
-    <TextureView
-        android:id="@+id/captured_image"
-        android:layout_width="match_parent"
+    <ImageView
         android:layout_height="match_parent"
+        android:layout_width="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentBottom="false"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_above="@+id/capture_image"
+        android:layout_above="@+id/confirm_order"
+        android:id="@+id/provider_order_image"
+        android:src="@mipmap/ic_launcher"
         />
 
     <Button
-        android:id="@+id/capture_image"
+        android:id="@+id/confirm_order"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="@string/take_picture"
+        android:text="@string/confirm_order"
         android:layout_alignParentTop="false"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
@@ -33,8 +34,5 @@
         android:layout_margin="20dp"
         style="@style/Widget.MaterialComponents.Button.Icon"
         />
-
-
-
 
 </RelativeLayout>

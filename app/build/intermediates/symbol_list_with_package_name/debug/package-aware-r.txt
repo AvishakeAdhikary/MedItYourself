@@ -2053,6 +2053,7 @@ id clip_vertical
 id collapseActionView
 id confirm_button
 id confirm_image
+id confirm_order
 id container
 id content
 id contentPanel
@@ -2221,6 +2222,7 @@ id provider_car
 id provider_confirm
 id provider_logout
 id provider_name
+id provider_order_image
 id provider_phone
 id provider_settings
 id radio
@@ -2588,6 +2590,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string confirm
+string confirm_order
 string confirm_picture
 string country
 string create_new

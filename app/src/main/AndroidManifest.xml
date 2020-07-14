@@ -33,7 +33,7 @@
             android:name=".ProviderConfirmPicture"
             android:label="@string/confirm_picture" />
         <activity
-            android:name=".ProviderMediceneShopActivity"
+            android:name=".ProviderMedicineShopActivity"
             android:label="@string/i_shop" />
         <activity
             android:name=".ProviderDoctorActivity"

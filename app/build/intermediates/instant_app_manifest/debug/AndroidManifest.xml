@@ -50,7 +50,7 @@
             android:name="com.example.med_it_yourself.ProviderConfirmPicture"
             android:label="@string/confirm_picture" />
         <activity
-            android:name="com.example.med_it_yourself.ProviderMediceneShopActivity"
+            android:name="com.example.med_it_yourself.ProviderMedicineShopActivity"
             android:label="@string/i_shop" />
         <activity
             android:name="com.example.med_it_yourself.ProviderDoctorActivity"
