@@ -232,7 +232,7 @@ public class UserAmbulanceMapActivity extends FragmentActivity implements OnMapR
                                     return;
                                 }
 
-                                if(driverMap.get("service").equals(requestService)){
+                                if(driverMap.get("Service").equals(requestService)){
                                     AmbulanceFound = true;
                                     AmbulanceFoundID = dataSnapshot.getKey();
 

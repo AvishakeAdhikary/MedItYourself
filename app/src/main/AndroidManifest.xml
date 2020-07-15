@@ -25,6 +25,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".ProviderDoctorSettings"></activity>
+        <activity android:name=".AppInfoActivity" />
         <activity android:name=".HistoryActivity" />
         <activity android:name=".UserSettingsActivity" />
         <activity android:name=".ProviderSettingsActivity" />

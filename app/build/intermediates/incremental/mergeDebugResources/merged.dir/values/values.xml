@@ -1231,6 +1231,7 @@
     <string name="back">Back</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
     <string name="buy_meds">Buy Meds</string>
+    <string name="call_doc">Call Doctor</string>
     <string name="character_counter_content_description">Characters entered %1$d of %2$d</string>
     <string name="character_counter_overflowed_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
@@ -1260,15 +1261,24 @@
     <string name="confirm_picture">Confirm Picture</string>
     <string name="country">Country</string>
     <string name="create_new">Create New</string>
+    <string name="created_by">Created By</string>
+    <string name="creator">Avishake Adhikary</string>
+    <string name="creator_email">avhishe.adhikary11@gmail.com</string>
+    <string name="creator_phone">(+91) 8017916330</string>
     <string name="default_web_client_id" translatable="false">983534495478-1fkture2tmndf5hafsage0hpq07ri346.apps.googleusercontent.com</string>
     <string name="destination">Destination: </string>
+    <string name="doc_found">Doctor Found</string>
+    <string name="doc_setup">Setup Doctor Profile</string>
+    <string name="doc_unavailable">Doctors Are Unavailable</string>
     <string name="email">Email</string>
+    <string name="email_doc">Email Doctor</string>
     <string name="error_icon_content_description">Error</string>
     <string name="exposed_dropdown_menu_content_description">Show dropdown menu</string>
     <string name="fab_transformation_scrim_behavior" translatable="false">com.google.android.material.transformation.FabTransformationScrimBehavior</string>
     <string name="fab_transformation_sheet_behavior" translatable="false">com.google.android.material.transformation.FabTransformationSheetBehavior</string>
     <string name="firebase_database_url" translatable="false">https://medityourself-29532.firebaseio.com</string>
     <string name="gcm_defaultSenderId" translatable="false">983534495478</string>
+    <string name="gen_doc">General</string>
     <string name="get_started">Get Started</string>
     <string name="google_api_key" translatable="false">AIzaSyCrLg8mc7mNAlBoBChK8J9_taPN_5Gt1Lw</string>
     <string name="google_app_id" translatable="false">1:983534495478:android:ebfa5e620bd4eeff43aed7</string>
@@ -1285,6 +1295,7 @@
     <string name="logFrag">Swipe left to register</string>
     <string name="login_main">Login</string>
     <string name="logout">Logout</string>
+    <string name="lux_doc">Luxury</string>
     <string description="Content description for new notification (no number count) [CHAR_LIMIT=NONE]" name="mtrl_badge_numberless_content_description">New notification</string>
     <string description="Content description for a close icon that lets the user remove content from the screen" name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string description="Plural form content description for when the number of new notifications exceeds a maximum count[CHAR_LIMIT=NONE]" name="mtrl_exceed_max_badge_number_content_description" ns2:ignore="PluralsCandidate">More than <ns1:g example="999" id="maximum number">%1$d</ns1:g> new notifications</string>
@@ -1341,11 +1352,13 @@
     <string name="places_powered_by_google">Powered by Google</string>
     <string name="places_search_error">Can\'t load search results.</string>
     <string name="places_try_again">Try again</string>
+    <string name="pre_doc">Premium</string>
     <string name="project_id" translatable="false">medityourself-29532</string>
     <string name="provider">Provider</string>
     <string name="regFrag">Swipe right to login</string>
     <string name="register_main">Register</string>
     <string name="req_amb">Request Ambulance</string>
+    <string name="req_doc">Request Doctor</string>
     <string name="ride_id">RideId</string>
     <string name="search_menu_title">Search</string>
     <string name="settings">Settings</string>

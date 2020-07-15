@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.libraries.places:places:2.3.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\030d81484588ee42732089e72d75ad0f\jetified-places-2.3.0\AndroidManifest.xml:2:1-23:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\95c27f1e561f59170f577bf124144243\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -66,20 +66,20 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Avhishek\.gradle\caches\transf
 MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\5bff59c214769dcd1f3d0d488ca55f0c\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\35285c445663f7c228f657ad385136d0\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.datatransport:transport-api:2.1.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\7bf1406abeb45513561fa54757c5ad33\jetified-transport-api-2.1.0\AndroidManifest.xml:15:1-22:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
-INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
+INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
 	package
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-87:12
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:1-89:12
 		INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:2:11-69
@@ -148,7 +148,7 @@ ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:5-64
 	android:name
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:19:19-61
 application
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:5-85:19
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:21:5-87:19
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.3.0-alpha01] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\89c3624c3e6d69a27685b9e5a9d98dbb\material-1.3.0-alpha01\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.libraries.places:places:2.3.0] C:\Users\Avhishek\.gradle\caches\transforms-2\files-2.1\030d81484588ee42732089e72d75ad0f\jetified-places-2.3.0\AndroidManifest.xml:13:5-21:19
@@ -213,112 +213,120 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\Avhishek\.gradle\caches\t
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:22:9-35
 	android:theme
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:9-40
+activity#com.example.med_it_yourself.ProviderDoctorSettings
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-69
+	android:name
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:19-57
+activity#com.example.med_it_yourself.AppInfoActivity
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:9-53
+	android:name
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:19-50
 activity#com.example.med_it_yourself.HistoryActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-53
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:9-53
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:19-50
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:19-50
 activity#com.example.med_it_yourself.UserSettingsActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:9-58
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:9-58
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:29:19-55
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:19-55
 activity#com.example.med_it_yourself.ProviderSettingsActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:9-62
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:9-62
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:30:19-59
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:19-59
 activity#com.example.med_it_yourself.UserAmbulanceMapActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:9-62
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:9-62
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:31:19-59
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:19-59
 activity#com.example.med_it_yourself.ProviderConfirmPicture
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:32:9-34:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:9-36:55
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:33:13-51
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:13-51
 activity#com.example.med_it_yourself.ProviderMedicineShopActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:35:9-37:46
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:9-39:46
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:37:13-43
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:39:13-43
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:36:13-57
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:38:13-57
 activity#com.example.med_it_yourself.ProviderDoctorActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:38:9-40:48
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:40:9-42:48
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:40:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:42:13-45
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:39:13-51
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:13-51
 activity#com.example.med_it_yourself.ProviderAmbulanceActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:41:9-43:51
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:9-45:51
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:43:13-48
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:13-48
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:42:13-54
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:44:13-54
 activity#com.example.med_it_yourself.ProviderActionPicker
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:44:9-46:47
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:46:9-48:47
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:46:13-44
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:48:13-44
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:47:13-49
 activity#com.example.med_it_yourself.AuthenticationActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:47:9-60
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:49:9-60
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:47:19-57
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:49:19-57
 meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:56:9-58:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:58:9-60:55
 	android:value
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:58:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:60:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:57:13-58
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:59:13-58
 activity#com.example.med_it_yourself.ProviderAmbulanceMap
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:60:9-62:68
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:62:9-64:68
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:62:13-65
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:64:13-65
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:61:13-49
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:63:13-49
 activity#com.example.med_it_yourself.UserConfirmPicture
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:63:9-65:55
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:65:9-67:55
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:65:13-52
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:67:13-52
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:64:13-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:66:13-47
 activity#com.example.med_it_yourself.UserMediceneShopActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:66:9-68:46
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:68:9-70:46
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:68:13-43
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:70:13-43
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:67:13-53
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:69:13-53
 activity#com.example.med_it_yourself.UserDoctorActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:69:9-71:48
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:71:9-73:48
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:71:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:73:13-45
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:70:13-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:72:13-47
 activity#com.example.med_it_yourself.UserAmbulanceActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:72:9-74:51
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:74:9-76:51
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:74:13-48
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:76:13-48
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:73:13-50
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:75:13-50
 activity#com.example.med_it_yourself.UserActionPicker
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:75:9-77:47
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:77:9-79:47
 	android:label
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:77:13-44
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:79:13-44
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:76:13-45
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:13-45
 activity#com.example.med_it_yourself.MainActivity
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:9-84:20
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:9-86:20
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:78:19-47
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:79:13-83:29
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:81:13-85:29
 action#android.intent.action.MAIN
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:17-69
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:80:25-66
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:17-77
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:82:27-74
+		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:84:27-74
 uses-sdk
 INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml

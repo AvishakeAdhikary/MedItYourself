@@ -46,4 +46,19 @@
     <string name="history">History</string>
     <string name="active">Active</string>
     <string name="confirm_order">Confirm Order</string>
+    <string name="created_by">Created By</string>
+    <string name="creator">Avishake Adhikary</string>
+    <string name="creator_phone">(+91) 8017916330</string>
+    <string name="creator_email">avhishe.adhikary11@gmail.com</string>
+    <string name="gen_doc">General</string>
+    <string name="pre_doc">Premium</string>
+    <string name="lux_doc">Luxury</string>
+    <string name="call_doc">Call Doctor</string>
+    <string name="doc_found">Doctor Found</string>
+    <string name="email_doc">Email Doctor</string>
+    <string name="req_doc">Request Doctor</string>
+    <string name="doc_setup">Setup Doctor Profile</string>
+    <string name="doc_unavailable">Doctors Are Unavailable</string>
+
+
 </resources>

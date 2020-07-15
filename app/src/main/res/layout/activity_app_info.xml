@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimary"
+    tools:context=".AppInfoActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/creator_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_centerInParent="true"
+        android:backgroundTint="@color/darkLight"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Media -->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="194dp"
+                app:srcCompat="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp">
+
+                <!-- Title, secondary and supporting text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/created_by"
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@android:color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/creator"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@android:color/white"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/creator_email"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@android:color/white"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/creator_phone"
+                    android:textAppearance="?attr/textAppearanceBody2"
+                    android:textColor="@android:color/white"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+    <Button
+        android:id="@+id/app_info_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_margin="20dp"
+        android:layout_alignParentTop="false"
+        android:backgroundTint="@color/darkLight"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:text="@string/back"
+        />
+</RelativeLayout>
