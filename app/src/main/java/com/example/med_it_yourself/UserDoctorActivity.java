@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -31,6 +32,7 @@ public class UserDoctorActivity extends AppCompatActivity {
     private Button mCallDoc,mEmailDoc,mReqDoc;
     private RadioGroup mRadioGroup;
     private LinearLayout mLinearLayout;
+    private Map<String, Object> new_map = null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,31 +65,34 @@ public class UserDoctorActivity extends AppCompatActivity {
                 queryUid.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot snapshot) {
-                        for (DataSnapshot datas : snapshot.getChildren()) {
+                        for (DataSnapshot data : snapshot.getChildren()) {
                             if (snapshot.exists() && snapshot.getChildrenCount() > 0) {
-                                Map<String, Object> map = (Map<String, Object>) datas.getValue();
-                                if (map.get("DoctorUid") != null) {
-                                    mDoctorAvailable.addValueEventListener(new ValueEventListener() {
+                                String key = data.getKey();
+                                String value = data.getValue().toString();
+                                if(key!=null)
+                                {
+                                    mDocUnavailable.setVisibility(View.GONE);
+                                    mDocUnavailableText.setVisibility(View.GONE);
+                                    mLinearLayout.setVisibility(View.VISIBLE);
+                                    DatabaseReference doctorReference = FirebaseDatabase.getInstance().getReference().child("Doctors").child(value);
+                                    doctorReference.addValueEventListener(new ValueEventListener() {
                                         @Override
-                                        public void onDataChange(DataSnapshot dataSnapshot) {
-                                            if (dataSnapshot.exists() && dataSnapshot.getChildrenCount() > 0) {
-                                                mDocUnavailable.setVisibility(View.GONE);
-                                                mDocUnavailableText.setVisibility(View.GONE);
-                                                mLinearLayout.setVisibility(View.VISIBLE);
-                                                Map<String, Object> map = (Map<String, Object>) dataSnapshot.getValue();
-                                                if (map.get("DoctorName") != null) {
-                                                    mDocName.setText(map.get("DoctorName").toString());
+                                        public void onDataChange(@NonNull DataSnapshot snapshot) {
+                                            new_map = (Map<String, Object>) snapshot.getValue();
+                                            if (new_map.get("DoctorName") != null) {
+                                                    mDocName.setText("Doctor Name: "+new_map.get("DoctorName").toString());
                                                 }
-                                                if (map.get("DoctorPhone") != null) {
-                                                    mDocPhone.setText(map.get("DoctorPhone").toString());
-                                                }
-                                                if (map.get("DoctorEmail") != null) {
-                                                    mDocEmail.setText(map.get("DoctorEmail").toString());
-                                                }
+                                            if (new_map.get("DoctorPhone") != null) {
+                                                mDocPhone.setText("Doctor Phone: "+new_map.get("DoctorPhone").toString());
+                                            }
+                                            if (new_map.get("DoctorEmail") != null) {
+                                                mDocEmail.setText("Doctor Email: "+new_map.get("DoctorEmail").toString());
                                             }
                                         }
+
                                         @Override
-                                        public void onCancelled(DatabaseError databaseError) {
+                                        public void onCancelled(@NonNull DatabaseError error) {
+
                                         }
                                     });
                                 }
@@ -104,16 +109,18 @@ public class UserDoctorActivity extends AppCompatActivity {
         mCallDoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + mDocPhone.getText().toString()));
+                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.fromParts("tel" , new_map.get("DoctorPhone").toString(),null));
                 startActivity(intent);
             }
         });
+
         mEmailDoc.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", mDocEmail.getText().toString(), null));
+                Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", new_map.get("DoctorEmail").toString(), null));
                 startActivity(Intent.createChooser(intent, "Send email..."));
             }
         });
+
     }
 }

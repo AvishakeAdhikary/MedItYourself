@@ -214,7 +214,7 @@ MERGED from [com.android.volley:volley:1.1.1] C:\Users\Avhishek\.gradle\caches\t
 	android:theme
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:27:9-40
 activity#com.example.med_it_yourself.ProviderDoctorSettings
-ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-69
+ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:9-60
 	android:name
 		ADDED from C:\Projects\MedItYourself\app\src\main\AndroidManifest.xml:28:19-57
 activity#com.example.med_it_yourself.AppInfoActivity

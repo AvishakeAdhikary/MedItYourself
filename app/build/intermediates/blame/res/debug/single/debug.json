@@ -12,12 +12,12 @@
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_ambulance_map_provider.xml"
     },
     {
-        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_provider_doctor_settings.xml.flat",
-        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_provider_doctor_settings.xml"
-    },
-    {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_info_24px.xml.flat",
         "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\drawable\\ic_info_24px.xml"
+    },
+    {
+        "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_provider_doctor_settings.xml.flat",
+        "source": "C:\\Projects\\MedItYourself\\app\\src\\main\\res\\layout\\activity_provider_doctor_settings.xml"
     },
     {
         "merged": "C:\\Projects\\MedItYourself\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_provider_confirm_picture.xml.flat",

@@ -76,6 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:id="@+id/final_layout"
+        android:orientation="vertical"
         android:visibility="gone"
         >
         <TextView
